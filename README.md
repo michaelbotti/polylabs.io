@@ -1,2 +1,1 @@
-# koralabs-static
-Public facing website
+# kora-static
