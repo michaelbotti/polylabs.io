@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 // Images
-import Logo from '~images/kora-logo@1x.png';
-import Logo2X from '~images/kora-logo@2x.png';
+import Logo from '~images/kora-labs-favicon.png';
+import Logo2X from '~images/kora-labs-favicon.png';
 
 export default class Footer extends Component {
     componentDidMount() {
@@ -42,17 +42,7 @@ export default class Footer extends Component {
                             {/* <!-- Footer logo --> */}
                             <Col className="col-12 col-md-6 col-lg-1 res-margin">
                                 <div className="widget text-center">
-                                    <img
-                                        style={{
-                                            borderRadius: '4px',
-                                            background: '#fff',
-                                            padding: '10px',
-                                        }}
-                                        src={Logo}
-                                        srcSet={`${Logo2X} 2x`}
-                                        alt="Kora Labs"
-                                        width={45}
-                                    />
+                                    <img src={Logo} srcSet={`${Logo2X} 2x`} alt="Kora Labs" width={45} />
                                 </div>
                             </Col>
                         </Row>
