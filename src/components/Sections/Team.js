@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 // Images
 import Goose from '~images/team/goose.jpeg';
-import Conrad from '~images/team/conrad.jpeg';
+import Conrad from '~images/team/conrad2.png';
 import PapaGoose from '~images/team/papagoose.jpeg';
-import BigIrishLion from '~images/team/bigirishlion.png';
+import BigIrishLion from '~images/team/bigirishlion2.png';
 import Calvin from '~images/team/calvin.png';
 
 const Team = () => {
@@ -93,7 +93,7 @@ const Team = () => {
                                 <h5 className="title">
                                     <a href="/worker">$papagoose</a>
                                 </h5>
-                                <span className="position">CPO | CoFounder</span>
+                                <span className="position">CIO | CoFounder</span>
                             </div>
                         </div>
                     </Col>
