@@ -5,6 +5,8 @@ import { Link } from 'gatsby';
 // Images
 import Logo from '~images/kora-labs-logo1x.png';
 import Logo2X from '~images/kora-labs-logo1x.png';
+import LogoAlt from '~images/kora-labs-logo-alt1x.png';
+import Logo2XAlt from '~images/kora-labs-logo-alt1x.png';
 
 const Header = (props) => {
     const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -40,8 +42,8 @@ const Header = (props) => {
                                                 background: '#fff',
                                                 padding: '10px',
                                             }}
-                                            src={Logo}
-                                            srcSet={`${Logo2X} 2x`}
+                                            src={LogoAlt}
+                                            srcSet={`${Logo2XAlt} 2x`}
                                             alt="Kora Labs"
                                             width={162}
                                         />
@@ -67,7 +69,7 @@ const Header = (props) => {
                                 <div className="m-menu-header d-flex justify-content-between align-items-center d-lg-none">
                                     {/* <!-- Logo --> */}
                                     <a href="/" className="logo">
-                                        <img src={Logo} srcSet={`${Logo2X} 2x`} alt="Naxos" />
+                                        <img src={Logo} srcSet={`${Logo2X} 2x`} alt="Kora Labs" />
                                     </a>
 
                                     {/* <!-- Close button --> */}
